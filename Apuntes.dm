@@ -24,4 +24,7 @@ Desarrollar una aplicación de 3 capas desplegada en la nube (AWS) que permita:
 
 ### Diagrama de Arquitectura
 
-![Diagrama de arquitectura NightPass](Diagrama de arquitectura.png)
+![Diagrama de arquitectura NightPass](https://raw.githubusercontent.com/tu-usuario/nightpass/main/docs/Diagrama de arquitectura.png)
+
+
+
