@@ -219,7 +219,7 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 
 #### Diagrama de Arquitectura
 
-![Diagrama de arquitectura NightPass](Diagrama de arquitectura_Tarea #998.png)
+![Diagrama de arquitectura NightPass](https://github.com/DavidJauregu123/clouddataprocessing/blob/941297f69098756f9632c2e9637abff7a07c3a4e/Diagrama%20de%20arquitectura_Tarea%20%23998.png)
 
 ---
 
