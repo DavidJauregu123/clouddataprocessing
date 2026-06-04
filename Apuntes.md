@@ -185,11 +185,51 @@ Link: https://davidjauregu123.github.io/Presentaciones_web_Jeda_Tarea-996_y_Tare
 
 ## Temas vistos
 
+que es la informática en la nube?
+
+----------------definición de informática en la nube:
+
+la información en la nube es la entrega bajo demanda de potencia de computo, bases de datos, almacenamiento, aplicaciones y otros recurso de TI, a través de internet con un sistema de precios de pago por uso.
 
 
+----------------INFRAESTRUCTURA INFORMATICA TRADICIONAL:
+
+infraestructura como hardware 
+soluciones de hardware
+
+requieren de espacio personal, seguridad física, planificación e inversión de capital
+tienen un ciclo largo de adquisición de hardware
+le exigen aprovisionar capacidad mediante la predicción de los picos máximos teóricos
+
+-----------------INFRAESTRUCTURA COMO SOFTWARE
+
+-----------------MODELO DE SERVICIO EN LA NUBE
+
+IaaS
 
 
+INFRAESTRUCTURA COMO SERVICIO
 
+PaaS
+
+Plataforma como Servicio
+
+SaaS
+
+Sistema Como Servicio
+
+--------------------Modelo de implementación Informatica
+
+-------------------tipos de nubes
+
+publica
+privada
+comunitaria
+hibrida
+
+Sobre el sprint Plannig
+
+ECONIMIAS DE ESCALA MASIVA
 
 
 --Tarea #997 Investigar sobre Pizza as a service 2.0 y los diferentes modelos de servicio en la nube que presenta.
