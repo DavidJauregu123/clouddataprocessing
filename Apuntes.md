@@ -193,7 +193,7 @@ Al operar a escala global, los grandes proveedores de nube reducen sus costos po
 
 ---
 
-### 📅 Clase 3 — 04/06/2026
+### 📅 Clase 4 — 04/06/2026
 
 ## 3 Formas de interactuar con AWS
  
@@ -232,7 +232,7 @@ Se diseñó y creó para ofrecer un entorno de cómputo en la nube **fiable, con
 - Funciona **sin intervención humana**.
 
 
-### 📅 Clase 4 — 05/06/2026
+### 📅 Clase 5 — 05/06/2026
 
 
 
