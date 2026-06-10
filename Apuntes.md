@@ -193,6 +193,50 @@ Al operar a escala global, los grandes proveedores de nube reducen sus costos po
 
 ---
 
+### 📅 Clase 3 — 04/06/2026
+
+## 3 Formas de interactuar con AWS
+ 
+1. **Consola de administración de AWS**
+2. **Interfaz de línea de comandos (AWS CLI)**
+3. **Kits de desarrollo de software (SDK)**
+---
+ 
+## Infraestructura global de AWS
+ 
+Se diseñó y creó para ofrecer un entorno de cómputo en la nube **fiable, confiable, escalable y seguro**, con un rendimiento de red global de alta calidad.
+ 
+---
+ 
+## Regiones de AWS
+ 
+- Una región de AWS es una **zona geográfica**.
+- La comunicación entre regiones utiliza la **infraestructura de red troncal de AWS**.
+- Cada región proporciona a la red **niveles planos**.
+---
+ 
+## Centros de datos de AWS
+ 
+- Cada centro de datos suele tener más de **50,000 a 80,000 servidores físicos**.
+---
+ 
+## Funciones de la infraestructura de AWS
+ 
+### ⚡ Elasticidad y escalabilidad
+- **Escalable**: se adapta para crecer según la demanda.
+### 🛡️ Tolerancia a errores
+- **Continúa funcionando** en presencia de un error.
+### ✅ Alta disponibilidad
+- Minimiza el tiempo de inactividad.
+- Alto nivel de **rendimiento operativo**.
+- Funciona **sin intervención humana**.
+
+
+### 📅 Clase 4 — 05/06/2026
+
+
+
+
 ## 📝 Tareas
 
 ---
