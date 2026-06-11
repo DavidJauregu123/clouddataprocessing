@@ -233,6 +233,102 @@ Se diseñó y creó para ofrecer un entorno de cómputo en la nube **fiable, con
 
 
 ### 📅 Clase 5 — 05/06/2026
+ 
+#### Temas Vistos
+ 
+## 🐳 Docker
+ 
+### Conceptos Clave
+ 
+- **Efímero** — Los contenedores son temporales por naturaleza.
+- **Contenedores** — Unidades de software aisladas que empaquetan código y dependencias.
+- **Dockerfile** — Archivo de configuración para construir imágenes Docker.
+- **docker-compose.yml** — Archivo para definir y orquestar múltiples contenedores.
+---
+ 
+### Imágenes Base Comunes
+ 
+- `alpine Linux` — Imagen minimalista y ligera.
+- `debian python` — Imagen Debian con Python incluido.
+---
+ 
+### Estructura de un Dockerfile (ejemplo: servidor MariaDB)
+ 
+```dockerfile
+FROM imagen_base
+RUN apt install mariadb-server
+CMD ./mysql_start
+```
+ 
+---
+ 
+### Script de ejemplo: Hola Mundo
+ 
+```bash
+#!/bin/bash
+echo "Hola mundo"
+```
+ 
+> Editado con: `vi hola.sh`
+ 
+---
+ 
+### Comandos Docker Esenciales
+ 
+```bash
+docker build . -t hola     # Construir imagen con tag
+docker images              # Listar imágenes disponibles
+docker run hola            # Ejecutar un contenedor
+docker ps                  # Ver contenedores en ejecución
+```
+ 
+---
+ 
+### Docker Compose — Estructura básica
+ 
+```yaml
+services:
+  container:
+    image:
+    name: front
+    network:
+    volumes:
+  container:
+    name: back
+  container:
+    name: bd
+```
+ 
+---
+ 
+### Ecosistema y Herramientas Relacionadas
+ 
+| Herramienta | Descripción |
+|---|---|
+| **Docker Hub** | Registro público de imágenes |
+| **Docker Playground** | Entorno online para practicar |
+| **awesome-docker** | Colección de recursos Docker |
+| **Kubernetes** | Orquestación de contenedores a escala |
+| **Vagrant** | Gestión de entornos de desarrollo virtuales |
+| **VirtualBox** | Virtualizador para correr boxes/VMs |
+| **asciinema** | Grabación de sesiones de terminal |
+ 
+---
+ 
+### Patrón: Rebuild continuo
+ 
+```python
+while True:
+    docker build . -t hola
+```
+ 
+> Útil para desarrollo con reconstrucción automática de la imagen.
+ 
+---
+
+
+
+### 📅 Clase 6 — 05/06/2026
 
 
 
