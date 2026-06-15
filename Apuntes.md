@@ -376,3 +376,13 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 > Investigación sobre la solución estratificada de problemas en Tecnologías de la Información y Comunicación.
 
 🔗 [Ver presentación](https://davidjauregu123.github.io/Presentaciones_web_Jeda_Tarea-996_y_Tarea-997/)
+
+---
+
+### Tarea #994 — Hola mundo en docker
+
+> grabar asciinema donde crean el contenedor usando la imagen que crearon. Se debe ver el mensaje de hola mundo.
+
+🔗 [Ver presentación](https://github.com/DavidJauregu123/clouddataprocessing/blob/2dde56eec2ecb7a6476767639b6340946b2f218d/Tarea%20%23994-demo.cast)
+
+---
