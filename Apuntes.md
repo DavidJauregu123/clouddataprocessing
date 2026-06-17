@@ -1,354 +1,30 @@
-# ☁️ Cloud Data Processing — Portafolio de Tareas
-
-> **Materia:** Procesamiento de Datos en la Nube  
-> **Repositorio:** [clouddataprocessing](https://github.com/DavidJauregu123/clouddataprocessing)
-
----
-
-## 📓 Bitácoras de Clase
-
----
-
-### 📅 Clase 1 — 01/06/2026
-
-#### Temas Vistos
-
-**Introducción al curso**  
-El profesor presentó la materia y sus objetivos generales. También hubo un momento de reconocimiento entre quienes ya habían cursado materias previas con él.
-
----
-
-**Infraestructura como Código (IaC)**  
-En lugar de configurar servidores y recursos manualmente, IaC permite hacerlo a través de archivos de texto o scripts. Esto hace el proceso más reproducible, automatizable y fácil de mantener.
-
-| Herramienta | Descripción |
-|---|---|
-| **Terraform** | Una de las opciones más populares; funciona con casi cualquier proveedor de nube. |
-| **Pulumi** | Interesante porque te deja escribir la infraestructura en lenguajes que ya conoces, como Python o JavaScript. |
-| **CloudFormation** | La opción nativa de AWS; ideal si vas a trabajar exclusivamente dentro de ese ecosistema. |
-
----
-
-**Servicios en la nube y máquinas virtuales**  
-- **Servicio en la nube:** en lugar de tener el hardware físico, accedes a recursos de cómputo por internet cuando los necesitas.  
-- **Máquina virtual:** es básicamente una computadora simulada dentro de otra; corre su propio sistema operativo y sus propias apps sin interferir con el resto.
-
----
-
-**Cloud Agnostic**  
-Se refiere a diseñar software de forma que no dependa de un solo proveedor de nube. Si en algún momento quieres cambiar de AWS a Azure, por ejemplo, el sistema debería poder adaptarse sin reescribirse desde cero.
-
----
-
-**CI/CD y DevOps**  
-Se vio cómo la integración y entrega continua (CI/CD) busca automatizar todo el ciclo: desde que un desarrollador sube código hasta que ese código llega a producción, pasando por pruebas automáticas y validaciones.
-
-**Branching Strategy**  
-Tener una estrategia de ramas bien definida es clave para que varios desarrolladores puedan trabajar en paralelo sin pisarse unos a otros.
-
-**Herramientas de automatización y despliegue:**
-
-| Herramienta | Descripción |
-|---|---|
-| **FluxCD** | Se usa en entornos Kubernetes para que los despliegues se disparen automáticamente cuando hay cambios en el repositorio. |
-| **GitHub Actions** | Permite crear flujos de trabajo directamente en GitHub, sin necesidad de herramientas externas. |
-| **Jenkins** | Una solución clásica y muy extendida para pipelines de CI/CD en todo tipo de proyectos. |
-
-#### ✅ Conclusiones
-
-La clase sentó las bases del curso: computación en la nube, infraestructura como código y cultura DevOps. Lo más valioso fue ver cómo estas herramientas no son independientes, sino que se complementan para automatizar y escalar el desarrollo de software.
-
----
-
-### 📅 Clase 2 — 02/06/2026
-
-#### Temas Vistos
-
-**Sistemas de Control de Versiones (VCS)**  
-Un VCS lleva un registro histórico de todos los cambios en un proyecto, permitiendo volver a versiones anteriores y trabajar en equipo sin conflictos.
-
-**Comandos básicos de Git:**
-
-```bash
-git init       # Inicializar repositorio
-git status     # Ver estado del repositorio
-git add        # Agregar cambios al staging
-git commit     # Confirmar cambios
-git push       # Enviar cambios al remoto
-git pull       # Obtener y fusionar cambios del remoto
-git fetch      # Obtener cambios sin fusionar
-git clone      # Clonar repositorio remoto
-```
-
----
-
-**Plataformas de alojamiento de repositorios**
-
-Las más usadas para guardar y compartir repositorios Git:
-
-- **GitHub** — la más popular a nivel mundial
-- **GitLab** — fuerte en entornos empresariales con CI/CD integrado
-- **Gitea** — opción ligera y autoalojable
-
----
-
-**Estrategias de ramas (Branching Strategy)**
-
-Organizar el trabajo en ramas especializadas evita mezclar código en desarrollo con el que ya está en producción.
-
-| Rama | Propósito |
-|---|---|
-| `main` | Código estable listo para producción |
-| `develop` | Punto de integración de las nuevas funciones antes de liberar |
-| `feature` | Desarrollo aislado de una funcionalidad nueva |
-| `release` | Preparativos finales antes de lanzar una versión |
-| `hotfix` | Parches urgentes directamente sobre producción |
-
----
-
-**DevOps y CI/CD**
-
-Aplicar CI/CD en el flujo de trabajo trae varias ventajas concretas:
-
-- Los despliegues se vuelven predecibles y automáticos
-- Se detectan errores mucho antes, cuando son más fáciles de corregir
-- El tiempo entre que se termina una función y que llega al usuario se acorta considerablemente
-- Los equipos de desarrollo y operaciones trabajan con más sincronía
-
----
-
-**Git Flow — Flujo básico**
-
-1. Crear una rama para la tarea:
-
-```bash
-git branch 998
-git checkout 998
-```
-
-2. Realizar cambios y agregarlos al repositorio:
-
-```bash
-git add .
-git commit -m "Added evidence for 998"
-```
-
-3. Integrar cambios a la rama principal:
-
-```bash
-git checkout main
-git merge 998
-git push
-```
-
-#### ✅ Conclusiones
-
-Git es la base del trabajo colaborativo moderno en software. Conocer sus comandos esenciales, combinado con una buena estrategia de ramas y un pipeline de CI/CD, permite que equipos completos desarrollen en paralelo con orden y confianza.
-
----
-
-### 📅 Clase 3 — 03/06/2026
-
-#### Temas Vistos
-
-**¿Qué es la informática en la nube?**
-
-> En esencia, la nube te da acceso a recursos de cómputo —servidores, bases de datos, almacenamiento— a través de internet, y solo pagas por lo que realmente usas, sin necesidad de comprar ni mantener hardware propio.
-
----
-
-**Infraestructura Informática Tradicional**
-
-El modelo clásico tiene limitaciones importantes que la nube viene a resolver:
-
-- Comprar y mantener servidores físicos requiere inversión inicial alta, espacio y personal dedicado
-- Adquirir nuevo hardware puede tomar semanas o meses
-- La capacidad hay que planificarla con anticipación, lo que lleva a tener recursos ociosos o insuficientes según la demanda
-
----
-
-**Modelos de Servicio en la Nube**
-
-Dependiendo de cuánto quieras gestionar tú mismo, existen tres niveles:
-
-| Modelo | Nombre completo | ¿Qué te da? |
-|---|---|---|
-| **IaaS** | Infraestructura como Servicio | Acceso a servidores virtuales y redes; tú instalas y configuras todo encima |
-| **PaaS** | Plataforma como Servicio | Un entorno ya listo para desplegar tu app sin preocuparte por el sistema operativo |
-| **SaaS** | Software como Servicio | Una aplicación completa lista para usar desde el navegador |
-
----
-
-**Tipos de Nube**
-
-- ☁️ **Pública** — La gestiona un proveedor externo (AWS, Azure, GCP) y la comparten muchos clientes
-- 🔒 **Privada** — Infraestructura dedicada exclusivamente a una organización, con mayor control
-- 🤝 **Comunitaria** — Varias organizaciones con necesidades similares comparten la misma infraestructura
-- 🔀 **Híbrida** — Mezcla lo mejor de la nube pública y privada según las necesidades de cada carga de trabajo
-
----
-
-**Economías de Escala Masiva**  
-Al operar a escala global, los grandes proveedores de nube reducen sus costos por unidad y parte de ese ahorro se traslada a los clientes. Es una de las razones por las que usar la nube suele ser más barato que montar infraestructura propia.
-
----
-
-### 📅 Clase 4 — 04/06/2026
-
-## 3 Formas de interactuar con AWS
- 
-1. **Consola de administración de AWS**
-2. **Interfaz de línea de comandos (AWS CLI)**
-3. **Kits de desarrollo de software (SDK)**
----
- 
-## Infraestructura global de AWS
- 
-Se diseñó y creó para ofrecer un entorno de cómputo en la nube **fiable, confiable, escalable y seguro**, con un rendimiento de red global de alta calidad.
- 
----
- 
-## Regiones de AWS
- 
-- Una región de AWS es una **zona geográfica**.
-- La comunicación entre regiones utiliza la **infraestructura de red troncal de AWS**.
-- Cada región proporciona a la red **niveles planos**.
----
- 
-## Centros de datos de AWS
- 
-- Cada centro de datos suele tener más de **50,000 a 80,000 servidores físicos**.
----
- 
-## Funciones de la infraestructura de AWS
- 
-### ⚡ Elasticidad y escalabilidad
-- **Escalable**: se adapta para crecer según la demanda.
-### 🛡️ Tolerancia a errores
-- **Continúa funcionando** en presencia de un error.
-### ✅ Alta disponibilidad
-- Minimiza el tiempo de inactividad.
-- Alto nivel de **rendimiento operativo**.
-- Funciona **sin intervención humana**.
-
-
-### 📅 Clase 5 — 05/06/2026
- 
-#### Temas Vistos
- 
-## 🐳 Docker
- 
-### Conceptos Clave
- 
-- **Efímero** — Los contenedores son temporales por naturaleza.
-- **Contenedores** — Unidades de software aisladas que empaquetan código y dependencias.
-- **Dockerfile** — Archivo de configuración para construir imágenes Docker.
-- **docker-compose.yml** — Archivo para definir y orquestar múltiples contenedores.
----
- 
-### Imágenes Base Comunes
- 
-- `alpine Linux` — Imagen minimalista y ligera.
-- `debian python` — Imagen Debian con Python incluido.
----
- 
-### Estructura de un Dockerfile (ejemplo: servidor MariaDB)
- 
-```dockerfile
-FROM imagen_base
-RUN apt install mariadb-server
-CMD ./mysql_start
-```
- 
----
- 
-### Script de ejemplo: Hola Mundo
- 
-```bash
-#!/bin/bash
-echo "Hola mundo"
-```
- 
-> Editado con: `vi hola.sh`
- 
----
- 
-### Comandos Docker Esenciales
- 
-```bash
-docker build . -t hola     # Construir imagen con tag
-docker images              # Listar imágenes disponibles
-docker run hola            # Ejecutar un contenedor
-docker ps                  # Ver contenedores en ejecución
-```
- 
----
- 
-### Docker Compose — Estructura básica
- 
-```yaml
-services:
-  container:
-    image:
-    name: front
-    network:
-    volumes:
-  container:
-    name: back
-  container:
-    name: bd
-```
- 
----
- 
-### Ecosistema y Herramientas Relacionadas
- 
-| Herramienta | Descripción |
-|---|---|
-| **Docker Hub** | Registro público de imágenes |
-| **Docker Playground** | Entorno online para practicar |
-| **awesome-docker** | Colección de recursos Docker |
-| **Kubernetes** | Orquestación de contenedores a escala |
-| **Vagrant** | Gestión de entornos de desarrollo virtuales |
-| **VirtualBox** | Virtualizador para correr boxes/VMs |
-| **asciinema** | Grabación de sesiones de terminal |
- 
----
- 
-### Patrón: Rebuild continuo
- 
-```python
-while True:
-    docker build . -t hola
-```
- 
-> Útil para desarrollo con reconstrucción automática de la imagen.
- 
----
-
-
-
-### 📅 Clase 6 — 05/06/2026
-
-
-
-
-## 📝 Tareas
+# 📝 Tareas
+
+## 📊 Resumen
+
+| # | Nombre | Tecnologías | Estado |
+|---|--------|-------------|--------|
+| [#999](#tarea-999--nightpass-plataforma-de-eventos-nocturnos-en-cancún) | NightPass | AWS, arquitectura 3 capas | ✅ Entregada |
+| [#997](#tarea-997--pizza-as-a-service-20) | Pizza as a Service 2.0 | Modelos de servicio en la nube | ✅ Entregada |
+| [#996](#tarea-996--solución-estratificada-de-problemas-en-tic) | Solución Estratificada TIC | TIC | ✅ Entregada |
+| [#994](#tarea-994--hola-mundo-en-docker) | Hola Mundo en Docker | Docker, asciinema | ✅ Entregada |
 
 ---
 
 ### Tarea #999 — NightPass: Plataforma de Eventos Nocturnos en Cancún
 
-> Aplicación web y móvil para descubrir, reservar y acceder a fiestas caseras y antros en Cancún, con venta de boletos digitales y control de acceso por QR.
+| Campo | Detalle |
+|---|---|
+| **Estado** | ✅ Entregada |
+| **Tipo** | Proyecto de arquitectura cloud |
+| **Tecnologías** | AWS, arquitectura 3 capas, QR, pagos digitales |
 
-#### Descripción del Proyecto
+#### Descripción
+Aplicación web y móvil para descubrir, reservar y acceder a fiestas caseras y antros en Cancún, con venta de boletos digitales y control de acceso por QR.
 
-**NightPass** es una plataforma digital diseñada para conectar a los asistentes con los mejores eventos nocturnos de Cancún: desde fiestas privadas en casas hasta los antros más reconocidos de la zona hotelera. La app permite comprar entradas con antelación, reservar mesas VIP y acceder al evento mediante un código QR único, eliminando filas y facilitando el control de aforo para los organizadores.
-
-El proyecto nace de la necesidad de digitalizar la experiencia nocturna en una de las ciudades turísticas más importantes de México.
+**NightPass** conecta a los asistentes con los mejores eventos nocturnos de Cancún: desde fiestas privadas hasta los antros más reconocidos de la zona hotelera. La app permite comprar entradas con antelación, reservar mesas VIP y acceder mediante un código QR único, eliminando filas y facilitando el control de aforo para los organizadores.
 
 #### Objetivo
-
 Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 
 - 🔍 **Descubrir** eventos nocturnos cercanos en tiempo real
@@ -357,32 +33,53 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 - 📱 **Acceder** al evento mediante QR digital validado en puerta
 - 📊 **Gestionar** aforo, ingresos y asistentes desde panel de administración
 
-#### Diagrama de Arquitectura
-
-![Diagrama de arquitectura NightPass](https://github.com/DavidJauregu123/clouddataprocessing/blob/7372038972c152aa5fae9cce9d695748b7e80bda/Tarea%20%23998_Diagrama%20de%20arquitectura.jpeg)
+#### Entregables
+- 📐 [Diagrama de arquitectura](https://github.com/DavidJauregu123/clouddataprocessing/blob/7372038972c152aa5fae9cce9d695748b7e80bda/Tarea%20%23998_Diagrama%20de%20arquitectura.jpeg)
 
 ---
 
 ### Tarea #997 — Pizza as a Service 2.0
 
-> Investigación sobre Pizza as a Service 2.0 y los diferentes modelos de servicio en la nube.
+| Campo | Detalle |
+|---|---|
+| **Estado** | ✅ Entregada |
+| **Tipo** | Investigación / Presentación |
+| **Tecnologías** | Modelos de servicio en la nube (IaaS, PaaS, SaaS) |
 
-🔗 [Ver presentación](https://davidjauregu123.github.io/Presentaciones_web_Jeda_Tarea-996_y_Tarea-997/)
+#### Descripción
+Investigación sobre Pizza as a Service 2.0 como analogía para comprender los diferentes modelos de servicio en la nube.
+
+#### Entregables
+- 🔗 [Ver presentación](https://davidjauregu123.github.io/Presentaciones_web_Jeda_Tarea-996_y_Tarea-997/)
 
 ---
 
 ### Tarea #996 — Solución Estratificada de Problemas en TIC
 
-> Investigación sobre la solución estratificada de problemas en Tecnologías de la Información y Comunicación.
+| Campo | Detalle |
+|---|---|
+| **Estado** | ✅ Entregada |
+| **Tipo** | Investigación / Presentación |
+| **Tecnologías** | TIC, resolución de problemas |
 
-🔗 [Ver presentación](https://davidjauregu123.github.io/Presentaciones_web_Jeda_Tarea-996_y_Tarea-997/)
+#### Descripción
+Investigación sobre la solución estratificada de problemas en Tecnologías de la Información y Comunicación.
+
+#### Entregables
+- 🔗 [Ver presentación](https://davidjauregu123.github.io/Presentaciones_web_Jeda_Tarea-996_y_Tarea-997/)
 
 ---
 
-### Tarea #994 — Hola mundo en docker
+### Tarea #994 — Hola Mundo en Docker
 
-> grabar asciinema donde crean el contenedor usando la imagen que crearon. Se debe ver el mensaje de hola mundo.
+| Campo | Detalle |
+|---|---|
+| **Estado** | ✅ Entregada |
+| **Tipo** | Práctica / Demo |
+| **Tecnologías** | Docker, asciinema, bash |
 
-🔗 [Ver archivo](https://github.com/DavidJauregu123/clouddataprocessing/blob/2dde56eec2ecb7a6476767639b6340946b2f218d/Tarea%20%23994-demo.cast)
+#### Descripción
+Grabación en asciinema donde se construye y ejecuta un contenedor Docker mostrando el mensaje "Hola Mundo".
 
----
+#### Entregables
+- 🎬 [Ver grabación (.cast)](https://github.com/DavidJauregu123/clouddataprocessing/blob/2dde56eec2ecb7a6476767639b6340946b2f218d/Tarea%20%23994-demo.cast)
