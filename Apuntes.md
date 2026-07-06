@@ -690,7 +690,7 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 🔗 [Certificado Cloud Data Pipeline Builder](https://github.com/DavidJauregu123/clouddataprocessing/blob/ca3f9104824e99bb0c72ac7655044d5b167b4135/AWS_Academy_Graduate___Cloud_Data_Pipeline_Builder___Training_Badge_Badge20260706-7-vs6kip.pdf)
 
 
-🔗 [Microservices and CICD Pipeline Builder](https://github.com/DavidJauregu123/clouddataprocessing/blob/ca3f9104824e99bb0c72ac7655044d5b167b4135/AWS_Academy_Graduate___Microservices_and_CI_CD_Pipeline_Builder___Training_Badge_Badge20260706-7-e6f0it.pdf)
+🔗 [Certificado Microservices and CICD Pipeline Builder](https://github.com/DavidJauregu123/clouddataprocessing/blob/ca3f9104824e99bb0c72ac7655044d5b167b4135/AWS_Academy_Graduate___Microservices_and_CI_CD_Pipeline_Builder___Training_Badge_Badge20260706-7-e6f0it.pdf)
 
 ---
 
