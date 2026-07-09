@@ -659,7 +659,7 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 
 > Investigación sobre Pizza as a Service 2.0 y los diferentes modelos de servicio en la nube.
 
-🔗 [Ver presentación](https://davidjauregu123.github.io/Presentaciones_web_Jeda_Tarea-996_y_Tarea-997/)
+🔗 [Ver presentación](https://davidjauregu123.github.io/Presentaciones_web_Jeda_Tarea-996_y_Tarea-997/pizza-as-a-service/#/)
 
 ---
 
@@ -667,7 +667,7 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 
 > Investigación sobre la solución estratificada de problemas en Tecnologías de la Información y Comunicación.
 
-🔗 [Ver presentación](https://davidjauregu123.github.io/Presentaciones_web_Jeda_Tarea-996_y_Tarea-997/)
+🔗 [Ver presentación](https://davidjauregu123.github.io/Presentaciones_web_Jeda_Tarea-996_y_Tarea-997/virtualizacion-tic/#/)
 
 ---
 
