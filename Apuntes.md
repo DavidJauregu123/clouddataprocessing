@@ -709,7 +709,11 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 
 🔗 [Certificado Microservices and CICD Pipeline Builder](https://github.com/DavidJauregu123/clouddataprocessing/blob/ca3f9104824e99bb0c72ac7655044d5b167b4135/AWS_Academy_Graduate___Microservices_and_CI_CD_Pipeline_Builder___Training_Badge_Badge20260706-7-e6f0it.pdf)
 
-🔗 [Certificado Microservices and CICD Pipeline Builder](https://github.com/DavidJauregu123/clouddataprocessing/blob/ca3f9104824e99bb0c72ac7655044d5b167b4135/AWS_Academy_Graduate___Microservices_and_CI_CD_Pipeline_Builder___Training_Badge_Badge20260706-7-e6f0it.pdf)
+
+🔗 [Certificado Cloud Security Builder](https://github.com/DavidJauregu123/clouddataprocessing/blob/cbd51bc268fe80c498adbd89cdd574ce87027169/AWS_Academy_Graduate___Cloud_Security_Builder___Training_Badge_Badge20260709-20-6p8jkt.pdf)
+
+
+🔗 [Certificado Cloud Web Application Builder](https://github.com/DavidJauregu123/clouddataprocessing/blob/cbd51bc268fe80c498adbd89cdd574ce87027169/AWS_Academy_Graduate___Cloud_Web_Application_Builder___Training_Badge_Badge20260709-20-h2kih3.pdf)
 
 
 
