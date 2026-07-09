@@ -649,7 +649,7 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 - 📱 **Acceder** al evento mediante QR digital validado en puerta
 - 📊 **Gestionar** aforo, ingresos y asistentes desde panel de administración
 
-![Diagrama de arquitectura NightPass](https://github.com/DavidJauregu123/clouddataprocessing/blob/7372038972c152aa5fae9cce9d695748b7e80bda/Tarea%20%23998_Diagrama%20de%20arquitectura.jpeg)
+![Diagrama de arquitectura NightPass](https://github.com/DavidJauregu123/clouddataprocessing/blob/30d88ef20dd51ebcec53b9d740be66abc4c23288/Tarea%20%23998%20Realizar%20un%20diagrama%20de%20arquitectura%20para%20una%20aplicacion%20de%203%20capas%20en%20la%20nube.jpg)
 
 ---
 
