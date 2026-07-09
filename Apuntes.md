@@ -685,7 +685,7 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 
 > grabar asciinema donde crean el contenedor usando la imagen que crearon. Se debe ver el mensaje de hola mundo.
 
-🔗 [Ver archivo](https://github.com/DavidJauregu123/clouddataprocessing/blob/2dde56eec2ecb7a6476767639b6340946b2f218d/Tarea%20%23994-demo.cast)
+🔗 [Ver archivo](https://asciinema.org/a/v6gD6dt3iYvvIguR)
 
 ---
 
@@ -708,6 +708,10 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 
 
 🔗 [Certificado Microservices and CICD Pipeline Builder](https://github.com/DavidJauregu123/clouddataprocessing/blob/ca3f9104824e99bb0c72ac7655044d5b167b4135/AWS_Academy_Graduate___Microservices_and_CI_CD_Pipeline_Builder___Training_Badge_Badge20260706-7-e6f0it.pdf)
+
+🔗 [Certificado Microservices and CICD Pipeline Builder](https://github.com/DavidJauregu123/clouddataprocessing/blob/ca3f9104824e99bb0c72ac7655044d5b167b4135/AWS_Academy_Graduate___Microservices_and_CI_CD_Pipeline_Builder___Training_Badge_Badge20260706-7-e6f0it.pdf)
+
+
 
 ---
 
