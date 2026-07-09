@@ -629,7 +629,7 @@ Se realizó la tarea 993.
 
 ---
 
-### Tarea #999 — NightPass: Plataforma de Eventos Nocturnos en Cancún
+### Tarea #998 — NightPass: Plataforma de Eventos Nocturnos en Cancún
 
 > Aplicación web y móvil para descubrir, reservar y acceder a fiestas caseras y antros en Cancún, con venta de boletos digitales y control de acceso por QR.
 
@@ -649,11 +649,10 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 - 📱 **Acceder** al evento mediante QR digital validado en puerta
 - 📊 **Gestionar** aforo, ingresos y asistentes desde panel de administración
 
-#### Diagrama de Arquitectura
-
 ![Diagrama de arquitectura NightPass](https://github.com/DavidJauregu123/clouddataprocessing/blob/7372038972c152aa5fae9cce9d695748b7e80bda/Tarea%20%23998_Diagrama%20de%20arquitectura.jpeg)
 
 ---
+
 
 ### Tarea #997 — Pizza as a Service 2.0
 
@@ -671,6 +670,17 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 
 ---
 
+### Tarea #995 — Proyecto: Calculadora de adoquines.
+
+> Desarrollar un proyecto pequeño en equipos.
+
+🔗 [Ver proyecto](https://proyecto-adoquines.vercel.app)
+🔗 [Ver documentación](https://github.com/DavidJauregu123/Proyecto_adoquines/blob/c263316e2f779d16a91fa669e470939212cf13a8/DOCUMENTACION_TECNICA.md)
+🔗 [Ver repositorio](https://github.com/DavidJauregu123/Proyecto_adoquines.git)
+
+---
+
+
 ### Tarea #994 — Hola mundo en docker
 
 > grabar asciinema donde crean el contenedor usando la imagen que crearon. Se debe ver el mensaje de hola mundo.
@@ -679,11 +689,18 @@ Desarrollar una aplicación de **3 capas** desplegada en **AWS** que permita:
 
 ---
 
+### Tarea #993 Agregar un logo en los slides.
+
+🔗 [Ver presentación](https://tuxtter.github.io/diapositivas/logos/#/2/21)
+
+---
+
 ### Tarea #992 Elegir una herramienta de la unidad 3 y realizar diapositivas usando Markdown y WebJeda.
 
 🔗 [Ver presentación](https://tuxtter.github.io/diapositivas/map-reduce/#/)
 
 ---
+
 
 ### Tarea #991 Realizar los labs en la plataforma de AWS academy.
 
